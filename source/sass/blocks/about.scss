@@ -1,0 +1,72 @@
+.about {
+  padding-top: 120px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__photo {
+    max-width: 400px;
+    max-height: 600px;
+  }
+
+  &__descr {
+    max-width: 570px;
+    margin-left: 68px;
+  }
+
+  &__subtitle {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 68px;
+      border: 3px solid $main-color;
+      bottom: 0;
+    }
+  }
+
+  &__text {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__skills-item {
+    width: 260px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-icon {
+    position: relative;
+    padding: 15px 0 0 15px;
+
+    @include before__cirle;
+
+    &::before {
+      top: 0;
+    }
+  }
+
+  &__item-info {
+    width: 200px;
+  }
+
+  &__item-text {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+}

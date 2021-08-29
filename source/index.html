@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="Description" content=" Virna case test " />
-  <title>Alex</title>
+  <title>Alex Smitt</title>
   <script src="js/picturefill.min.js" async="async"></script>
   <link rel="preload" href="fonts/Poppins-Medium.woff2" as="font" crossorigin="anonymous" />
   <link rel="preload" href="fonts/Poppins-Bold.woff2" as="font" crossorigin="anonymous" />
@@ -20,18 +20,18 @@
   <main class="main">
     <aside class="sidepanel">
       <a href="#" class="sidepanel__link">
-        <svg  width='20' height='20'>
+        <svg width='20' height='20'>
           <use href='img/sprite/sprite.svg#facebook'></use>
-          </svg>
+        </svg>
       </a>
       <a href="#" class="sidepanel__link">
-        <svg  width='20' height='20'>
+        <svg width='20' height='20'>
           <use href='img/sprite/sprite.svg#instagram'></use>
-          </svg>
+        </svg>
       </a>
       <a href="#" class="sidepanel__link">
-        <svg  width='20' height='20'>
-        <use href='img/sprite/sprite.svg#github'></use>
+        <svg width='20' height='20'>
+          <use href='img/sprite/sprite.svg#github'></use>
         </svg>
       </a>
 
@@ -39,13 +39,124 @@
       <div class="sidepanel__text"><span>Социальные сети</span></div>
     </aside>
 
+    <div class="menu">
+      <div class="menu__block">
+        <div class="menu__close">
+          <svg  width='29' height='29'>
+          <use href='img/sprite/sprite.svg#close'></use>
+          </svg>
+        </div>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__link">
+              <a href="#">ПРО МЕНЯ</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">МОЙ ОПЫТ</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">МОИ НАВЫКИ</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">МОИ РАБОТЫ</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">ПРАЙС-ЛИСТ</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__socials">
+          <a href="#" class="menu__socials-link">
+            <svg width='20' height='20'>
+              <use href='img/sprite/sprite.svg#github'></use>
+            </svg>
+          </a>
+          <a href="#" class="menu__socials-link">
+            <svg width='20' height='20'>
+              <use href='img/sprite/sprite.svg#instagram'></use>
+            </svg>
+          </a>
+          <a href="#" class="menu__socials-link">
+            <svg width='20' height='20'>
+              <use href='img/sprite/sprite.svg#facebook'></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="menu__overlay"></div>
+    </div>
+
     <section class="promo">
+      <div class="hamburger">
+        <span></span>
+        <span class="long" ></span>
+        <span></span>
+      </div>
+
       <div class="container">
         <div class="title title__fz16">Меня зовут Александра Смит</div>
         <h1 class="promo__title title title__fz48">Я web-разработчик из города Москва</h1>
         <div class="promo__btns">
           <a href="#" class="promo__link button">Портфолио</a>
           <a href="#" class="promo__link">Про меня</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__photo">
+            <picture>
+            <source type='image/webp' srcset='img/Alex.webp'>
+            <img class='about__img' width='100' height='100' src='img/Alex.jpg' alt='Alex'>
+            </picture>
+          </div>
+          <div class="about__descr">
+            <div class="about__info">
+              <h2 class="title title__fz16">Про меня</h2>
+              <div class="about__subtitle title title__fz36">Меня зовут Александра</div>
+              <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qu i officia deserunt mollit anim id est laborum</p>
+            </div>
+            <div class="about__skills">
+              <div class="about__skills-item">
+                <div class="about__item-icon">
+                  <svg  width='25' height='25'>
+                  <use href='img/sprite/sprite.svg#web'></use>
+                  </svg>
+                </div>
+                <div class="about__item-info">
+                  <div class="title title__fz14">Web-разработка</div>
+                  <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="about__skills-item">
+                <div class="about__item-icon">
+                  <svg  width='13' height='24'>
+                  <use href='img/sprite/sprite.svg#dev'></use>
+                  </svg>
+                </div>
+                <div class="about__item-info">
+                  <div class="about__item-title title title__fz14">Разработка приложений</div>
+                  <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="about__skills-item">
+                <div class="about__item-icon">
+                  <svg  width='25' height='20'>
+                  <use href='img/sprite/sprite.svg#design'></use>
+                  </svg>
+                </div>
+                <div class="about__item-info">
+                  <div class="about__item-title title title__fz14">UI/UX Design</div>
+                  <p class="about__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
