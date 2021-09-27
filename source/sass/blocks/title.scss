@@ -18,6 +18,11 @@
     @include before__cirle;
   }
 
+  &__fz20 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   &__fz36 {
     font-size: 36px;
   }
