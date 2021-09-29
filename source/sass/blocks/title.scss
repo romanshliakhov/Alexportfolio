@@ -30,4 +30,19 @@
   &__fz48 {
     font-size: 48px;
   }
+
+  &__center {
+    position: relative;
+    text-align: center;
+    padding-left: 0;
+
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+  }
 }

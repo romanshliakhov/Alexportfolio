@@ -1,21 +1,6 @@
 .resume {
   padding-top: 120px;
 
-  &__title {
-    position: relative;
-    text-align: center;
-    padding-left: 0;
-
-    &::before {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-
-  &__subtitle {
-    text-align: center;
-  }
-
   &__wrapper {
     padding: 60px 65px 0 65px;
     display: grid;
@@ -73,6 +58,7 @@
     margin-top: 14px;
     top: 30px;
     left: 45px;
+
     @include before__cirle;
 
     svg {
