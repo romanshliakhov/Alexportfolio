@@ -471,11 +471,66 @@
         </div>
       </div>
     </section>
+
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__wrapper">
+          <div class="about__photo">
+            <picture>
+              <source type='image/webp' srcset='img/Alex.webp'>
+              <img class='about__img' width='100' height='100' src='img/Alex.jpg' alt='Alex'>
+            </picture>
+          </div>
+          <div class="contacts__descr">
+            <h2 class="title title__fz16">Контакты</h2>
+            <div class="contacts__subtitle title title__fz36">Свяжитесь со мной</div>
+            <div class="divider"></div>
+            <div class="contacts__text title title__fz14">Любым удобным для вас способом:</div>
+            <ul class="contacts__socials">
+              <li class="contacts__socials-item">
+                <a href="#" class="contacts__socials-link">
+                  <svg  width='30' height='30'>
+                    <use href='img/sprite/sprite.svg#facebook'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts__socials-item">
+                <a href="#" class="contacts__socials-link">
+                  <svg  width='30' height='30'>
+                    <use href='img/sprite/sprite.svg#telegram'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts__socials-item">
+                <a href="#" class="contacts__socials-link">
+                  <svg  width='30' height='30'>
+                    <use href='img/sprite/sprite.svg#instagram'></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="contacts__text title title__fz14">Или оставьте ваши данные и я сама вам напишу:</div>
+
+            <form class="contacts__form">
+              <fieldset class="contacts__form-fieldset">
+                <legend class="contacts__form-legend">Ваше имя</legend>
+                <input class="contacts__input" type="text" placeholder="Иван" name="name" required>
+              </fieldset>
+              <fieldset class="contacts__form-fieldset">
+                <legend class="contacts__form-legend">Ваша почта</legend>
+                <input class="contacts__input" type="email" name="email" required>
+              </fieldset>
+              <fieldset class="contacts__textarea">
+                <legend class="contacts__form-legend">Ваше сообщение</legend>
+                <textarea type="text" required></textarea>
+              </fieldset>
+              <button class="contacts__button button" type="submit">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/slick.min.js"></script>

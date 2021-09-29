@@ -3,4 +3,11 @@
   padding: 12px 25px;
   background: $main-color;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  line-height: 21px;
+  color: #000000;
+
+  &:hover {
+    color: #000000;
+  }
 }
