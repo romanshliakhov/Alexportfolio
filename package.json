@@ -12,7 +12,6 @@
     "gulp-posthtml": "3.0.5",
     "gulp-sass": "4.1.0",
     "gulp-svgstore": "7.0.1",
-    "gulp-uglify-es": "2.0.0",
     "gulp-webp": "4.0.1",
     "mixitup": "^3.3.1",
     "node-sass": "5.0.0",

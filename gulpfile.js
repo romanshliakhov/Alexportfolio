@@ -15,7 +15,6 @@ const svgstore = require("gulp-svgstore");
 const posthtml = require("gulp-posthtml");
 const include = require("posthtml-include");
 const del = require("del");
-const uglify = require('gulp-uglify-es').default;
 const htmlmin = require("gulp-htmlmin");
 
 gulp.task("css", () => {
@@ -36,7 +35,6 @@ gulp.task("js", () => {
   return gulp.src("source/js/**/*.js")
     .pipe(plumber())
     .pipe(sourcemap.init())
-    .pipe(uglify())
     .pipe(gulp.dest("build/js"))
     .pipe(rename(function (path) {
       path.extname = ".min.js";
